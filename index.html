@@ -16,12 +16,10 @@ div:hover {
   transform: scale(1.03);
 } 
 
-
-
      </style> 
 
 </head>
-<body class="font-inter overflow-x-hidden">
+<body class="font-inter overflow-x-clip">
     <header>
        
 <nav class="bg-black w-full">
@@ -80,12 +78,12 @@ div:hover {
 
     
        <main >
-        <banner>
+       <section>
             <div class="relative">
             <img src="./assets/hero-bg.png" alt="banner-background" class="w-full h-full object-cover max-[576px]:h-130">
             <div class="absolute top-[37%] left-1/2 -translate-x-1/2 -translate-y-1/2 overflow-hidden">
             <img src="./assets/hero-circle.png" alt="hero-circle">
-            <span class="absolute top-[10%]  right-13 translate-x-1/2 -translate-y-1/2 rounded-2xl h-9  w-18 bg-green-400 text-black font-bold text-l px-5 py-1">NEW</span>
+            <span class="absolute top-[10%]  right-13 translate-x-1/2 -translate-y-1/2 rounded-2xl h-9  w-18 bg-green-400 text-black font-bold text-l px-5 py-1 max-[576px]:translate-x-[72%]">NEW</span>
             <img src="./assets/microphone.png" class="absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 ">
             </div>
 </div>
@@ -94,7 +92,7 @@ div:hover {
 
 
 
-<div class="text-center  absolute top-[90%] left-1/2 -translate-x-1/2 -translate-y-1/2 max-w-full max-[576px]:top-[65%]  max-[576px]:left-[45%] max-[576]:-translate-x-[45%] ">
+<div class="text-center  absolute top-[90%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-[576px]:top-[65%] px-4 ">
 
                 <h1 class="text-white text-5xl font-bold ">TechWave</h1>
                 <p class="text-white p-3 font-thin">Your daily dose of tech insights, productivity  hacks,ans personal growth</p>
@@ -108,7 +106,7 @@ div:hover {
     </div>
             </div>
        
-<banner>
+</section>
       
         <section>
             <div class="bg-black text-white text-center pb-10 pt-9">
@@ -124,7 +122,7 @@ div:hover {
         </section>
 
 <section>
-    <div class="bg-black flex justify-around gap-0 pl-10 pr-10 pt-10 pb-10 max-[576px]:grid max-[576px]:grid-cols-2 max-[576px]:gap-8">
+    <div class="bg-black flex justify-around gap-0 pl-10 pr-10 pt-10 pb-10 max-[576px]:grid max-[576px]:grid-cols-2 max-[576px]:gap-8 max-[576px]:pt-0 pl-25 ">
         <div>
 <h1 class="text-5xl text-green-400 font-bold">150K+</h1>
 <p class="text-white font-thin text-sm pt-3">MONTHLY LISTENERS</p>
@@ -149,15 +147,10 @@ div:hover {
     <h1 class="text-center text-white text-4xl mb-20 font-bold max-[576px]:mb-6">Why Choose TechWave</h1>
     <div class="grid grid-cols-3 gap-5 max-[576px]:grid max-[576px]:grid-cols-1">
 
-    <div class="pl-9 pr-9 pt-15 pb-5 rounded-2xl bg-purple-900 row-span-2 max-[576px]:m-4 ">
+    <div class="pl-9 pr-9 pt-15 pb-5 rounded-2xl bg-purple-900 row-span-2 max-[576px]:m-4 max-[576px]:w-106">
 <img src="./assets/headphone.png" alt="">
-<h2 class="text-white font-bold mt-3 mb-3">Premium Audio Quality</h2>
-<p class="text-gray-300 font-thin">Experience crystal-clear sound with</p>
-<p class="text-gray-300 font-thin" > professional-grade recording </p>
-<p  class="text-gray-300 font-thin">eqipment and expert audio </p>
-<p class="text-gray-300 font-thin">engineering.Every episode is mastered</p>
-<p class="text-gray-300 font-thin" > for optional listening across all devices</p>
-<p class="text-gray-300 font-thin"> and platforms.</p>
+<h2 class="text-white font-bold mt-3 mb-3 ">Premium Audio Quality</h2>
+<p class="text-gray-300 font-thin">Experience crystal-clear sound with professional-grade recording eqipment and expert audio engineering.Every episode is mastered for optional listening across all devices and platforms.</p>
     </div>
 
  <div class="pl-9 pr-9 pt-15 pb-5 rounded-2xl bg-purple-900 row-span-1 col-span-2 max-[576px]:m-4">
@@ -175,17 +168,13 @@ div:hover {
 <div class="pl-9 pr-9 pt-15 pb-5 rounded-2xl bg-purple-900 row-span-1 col-span-2 max-[576px]:m-4 ">
 <img src="./assets/zap-fast.png" alt="">
 <h2 class="text-white font-bold mt-3 mb-3">Exclusive Interviews</h2>
-<p class="text-gray-300 font-thin">Get unprecedented access to industry titans, startup founders, and tech visionaries.Our host</p>
-<p class="text-gray-300 font-thin">secures exclusive conversations you won't find anywhere else, diving deep into their</p>
-<p class="text-gray-300 font-thin">journeys, failure, and success strategies.</p>
+<p class="text-gray-300 font-thin">Get unprecedented access to industry titans, startup founders, and tech visionaries.Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failure, and success strategies.</p>
 </div>
 
-<div class="pl-9 pr-9 pt-15 pb-5 rounded-2xl bg-purple-900  max-[576px]:m-4">
+<div class="pl-9 pr-9 pt-15 pb-5 rounded-2xl bg-purple-900  max-[576px]:m-4 max-[576px]:w-106 ">
 <img src="./assets/resource.png" alt="">
 <h2 class="text-white font-bold mt-3 mb-3">Rich Resources</h2>
-<p class="text-gray-300 font-thin">Access show notes, transcripts, and </p>
-<p class="text-gray-300 font-thin">additional learning materials for every</p>
-<p class="text-gray-300 font-thin">episode.</p>
+<p class="text-gray-300 font-thin">Access show notes, transcripts, and additional learning materials for every episode.</p>
 </div>
     </div>
     </div>
@@ -193,8 +182,8 @@ div:hover {
 
 <section>
     <div class="bg-black   p-20 max-[576px]:p-0">
-        <h1 class="text-white  text-center font-bold text-2xl">Featured Episodes</h1>
-        <div class="flex justify-around gap-5 p-10 max-[576px]:p-2 max-[576px]:flex-col ">
+        <h1 class="text-white  text-center font-bold text-2xl max-[576px]:p-3">Featured Episodes</h1>
+        <div class="flex justify-around gap-5 p-10 max-[576px]:p-2 max-[576px]:flex-col">
 
 
 <div class="rounded-2xl relative overflow-hidden bg-purple-950 w-[460px]">
